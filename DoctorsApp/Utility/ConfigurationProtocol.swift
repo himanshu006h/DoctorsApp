@@ -9,7 +9,7 @@
 import Foundation
 
 enum SectionDetails: Int {
-    case basic = 0, location, quality, severity, duration
+    case basic = 0, location
 
 }
 

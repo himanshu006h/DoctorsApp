@@ -14,7 +14,6 @@ class ViewController: UIViewController {
     struct Constants {
         static let cellIdentifier = "TemplateDataCell"
         static let locationCellIdentifier = "LocationCell"
-        static let qualityCellCellIdentifier = "QualityCell"
         static let severityCellCellIdentifier = "SeverityCell"
         static let cancel = "Cancel"
         static let blank = ""
@@ -77,9 +76,7 @@ class ViewController: UIViewController {
         self.hpiTableView.register(UINib(nibName: Constants.cellIdentifier, bundle: nil), forCellReuseIdentifier: Constants.cellIdentifier)
         
         self.hpiTableView.register(UINib(nibName: Constants.locationCellIdentifier, bundle: nil), forCellReuseIdentifier: Constants.locationCellIdentifier)
-        
-        self.hpiTableView.register(UINib(nibName: Constants.qualityCellCellIdentifier, bundle: nil), forCellReuseIdentifier: Constants.qualityCellCellIdentifier)
-        
+                
         self.hpiTableView.register(UINib(nibName: Constants.severityCellCellIdentifier, bundle: nil), forCellReuseIdentifier: Constants.severityCellCellIdentifier)
 
     }

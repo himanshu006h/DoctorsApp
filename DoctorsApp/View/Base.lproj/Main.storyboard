@@ -42,7 +42,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" title="HPI" id="u44-Zg-7o4"/>
+                    <navigationItem key="navigationItem" title="HPI" id="u44-Zg-7o4">
+                        <barButtonItem key="leftBarButtonItem" title="Cancel" id="Vu6-wM-9jU"/>
+                        <barButtonItem key="rightBarButtonItem" title="Done" style="done" id="Myz-rg-Tdr"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="activityIndicator" destination="iKY-vt-AII" id="fmD-Zg-UsS"/>
                         <outlet property="hpiTableView" destination="6O2-ci-ctL" id="ege-qE-mOM"/>
