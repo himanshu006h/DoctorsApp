@@ -9,12 +9,10 @@
 import Foundation
 
 enum SectionDetails: Int {
-    case basic = 0, location, quality, severity
-//    case location = 1
-//    case quality = 2
-//    case severity = 3
+    case basic = 0, location, quality, severity, duration
+
 }
 
 protocol ConfigurationProtocol: class {
-    func configureCell(cellDependencyData: Any?)
+    func configureCell(cellDependencyData: Any?, sectionName: String?)
 }

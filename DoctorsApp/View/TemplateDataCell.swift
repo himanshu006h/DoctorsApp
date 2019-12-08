@@ -31,7 +31,7 @@ class TemplateDataCell: UITableViewCell, ConfigurationProtocol {
         self.collectionView.register(UINib(nibName: Constants.cellIdentifier, bundle: nil), forCellWithReuseIdentifier: Constants.cellIdentifier)
     }
     
-    func configureCell(cellDependencyData: Any?) {
+    func configureCell(cellDependencyData: Any?, sectionName: String?) {
         guard let basicData = cellDependencyData as? TemplateData else { return }
         self.collectionDataSource = basicData
         self.btnRepotedBY.setTitle(basicData.reportedBy, for: .normal)
@@ -60,7 +60,7 @@ extension TemplateDataCell: UICollectionViewDataSource {
                 return UICollectionViewCell()
         }
         
-        cell.configureCell(cellDependencyData: templateDetails)
+        cell.configureCell(cellDependencyData: templateDetails, sectionName: nil)
         return cell
     }
 }

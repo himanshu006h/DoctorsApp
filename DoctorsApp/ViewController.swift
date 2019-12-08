@@ -14,6 +14,8 @@ class ViewController: UIViewController {
     struct Constants {
         static let cellIdentifier = "TemplateDataCell"
         static let locationCellIdentifier = "LocationCell"
+        static let qualityCellCellIdentifier = "QualityCell"
+        static let severityCellCellIdentifier = "SeverityCell"
         static let cancel = "Cancel"
         static let blank = ""
     }
@@ -73,7 +75,13 @@ class ViewController: UIViewController {
     
     func registerCells() {
         self.hpiTableView.register(UINib(nibName: Constants.cellIdentifier, bundle: nil), forCellReuseIdentifier: Constants.cellIdentifier)
+        
         self.hpiTableView.register(UINib(nibName: Constants.locationCellIdentifier, bundle: nil), forCellReuseIdentifier: Constants.locationCellIdentifier)
+        
+        self.hpiTableView.register(UINib(nibName: Constants.qualityCellCellIdentifier, bundle: nil), forCellReuseIdentifier: Constants.qualityCellCellIdentifier)
+        
+        self.hpiTableView.register(UINib(nibName: Constants.severityCellCellIdentifier, bundle: nil), forCellReuseIdentifier: Constants.severityCellCellIdentifier)
+
     }
 
 }
@@ -106,7 +114,10 @@ extension ViewController: HPIInformation {
 extension ViewController: UITableViewDataSource {
     
     func numberOfSections(in tableView: UITableView) -> Int {
-        return 4
+        var aReturnValue = 0
+        guard let sections = self.hpiInformation?.reply?.hpi?.first?.sentences?.count else { return aReturnValue }
+        aReturnValue = sections + 1 // one plus for basic cell
+        return aReturnValue
     }
 
     
@@ -117,12 +128,8 @@ extension ViewController: UITableViewDataSource {
             aReturnValue = 1
         case SectionDetails.location.rawValue:
             aReturnValue = 1
-        case SectionDetails.quality.rawValue:
-            aReturnValue = 1
-        case SectionDetails.severity.rawValue:
-            aReturnValue = 1
         default:
-            aReturnValue = 0
+            aReturnValue = 1
         }
         
         return aReturnValue
@@ -136,7 +143,7 @@ extension ViewController: UITableViewDataSource {
                     return UITableViewCell()
             }
             
-            cell.configureCell(cellDependencyData: details)
+            cell.configureCell(cellDependencyData: details, sectionName: nil)
             return cell
         case SectionDetails.location.rawValue:
             guard let cell = tableView.dequeueReusableCell(withIdentifier: Constants.locationCellIdentifier, for: indexPath) as? LocationCell,
@@ -144,10 +151,19 @@ extension ViewController: UITableViewDataSource {
                     return UITableViewCell()
             }
             
-            cell.configureCell(cellDependencyData: details)
+            cell.configureCell(cellDependencyData: details, sectionName: nil)
             return cell
+            
         default:
-            return UITableViewCell()
+            guard let cell = tableView.dequeueReusableCell(withIdentifier: Constants.severityCellCellIdentifier, for: indexPath) as? SeverityCell,
+                let details = self.hpiInformation?.reply?.hpi?.first?.sentences?[indexPath.section - 1].findings,
+                let heading = self.hpiInformation?.reply?.hpi?.first?.sentences?[indexPath.section - 1].sentenceName else {
+                    return UITableViewCell()
+            }
+            
+            cell.configureCell(cellDependencyData: details, sectionName: heading)
+            return cell
+
         }
 
     }

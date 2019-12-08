@@ -17,7 +17,7 @@ class TemplateCollectionData: UICollectionViewCell, ConfigurationProtocol {
         // Initialization code
     }
     
-    func configureCell(cellDependencyData: Any?) {
+    func configureCell(cellDependencyData: Any?, sectionName: String?) {
         guard let templateDetail = cellDependencyData as? TemplateData,
         let name = templateDetail.templateName else {
             return

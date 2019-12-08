@@ -24,7 +24,7 @@ class LocationCell: UITableViewCell, ConfigurationProtocol {
         self.registerLocationCell()
     }
     
-    func configureCell(cellDependencyData: Any?) {
+    func configureCell(cellDependencyData: Any?, sectionName: String?) {
         guard let findings = cellDependencyData as? [Findings] else { return }
         self.collectionDataSource = findings
     }
@@ -32,6 +32,7 @@ class LocationCell: UITableViewCell, ConfigurationProtocol {
     func registerLocationCell() {
         self.collectionView.register(UINib(nibName: Constants.cellIdentifier, bundle: nil), forCellWithReuseIdentifier: Constants.cellIdentifier)
     }
+    
     @IBAction func onTapNormal(_ sender: Any) {
         guard let normalButton = sender as? UIButton else { return }
         normalButton.isSelected = !normalButton.isSelected
@@ -55,7 +56,7 @@ extension LocationCell: UICollectionViewDataSource {
                 return UICollectionViewCell()
         }
         
-        cell.configureCell(cellDependencyData: findings[indexPath.row])
+        cell.configureCell(cellDependencyData: findings[indexPath.row], sectionName: nil)
         return cell
     }
 }
@@ -69,6 +70,7 @@ extension LocationCell: UICollectionViewDelegateFlowLayout {
        guard let findings = self.collectionDataSource else {
             return .zero
         }
+        
         let cellWidth = findings[indexPath.row].findingName?.width(withConstrainedHeight: 50, font: .systemFont(ofSize: 15, weight: .semibold)) ?? 0
         return CGSize(width: cellWidth, height: 50)
     }

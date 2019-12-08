@@ -9,20 +9,70 @@
 import UIKit
 
 class QualityCell: UITableViewCell, ConfigurationProtocol {
+    
+    // MARK:- Constants
+    struct Constants {
+        static let cellIdentifier = "QualityCollectionCell"
+    }
+    
+    // MARK:- Properties
+    @IBOutlet private weak var collectionView: UICollectionView!
+    private var collectionDataSource: [Findings]?
+    
 
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
-    }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
+        self.registerQualityCell()
     }
     
-    func configureCell(cellDependencyData: Any?) {
+    func configureCell(cellDependencyData: Any?, sectionName: String?) {
+        guard let findings = cellDependencyData as? [Findings] else { return }
+        self.collectionDataSource = findings
+    }
+
+    func registerQualityCell() {
+        self.collectionView.register(UINib(nibName: Constants.cellIdentifier, bundle: nil), forCellWithReuseIdentifier: Constants.cellIdentifier)
+    }
+    
+    @IBAction func onTapNormal(_ sender: Any) {
+        guard let normalButton = sender as? UIButton else { return }
+        normalButton.isSelected = !normalButton.isSelected
+    }
+    @IBAction func onTapClear(_ sender: Any) {
+        guard let clearAButton = sender as? UIButton else { return }
+        clearAButton.isSelected = !clearAButton.isSelected
         
     }
+}
+
+extension QualityCell: UICollectionViewDataSource {
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return self.collectionDataSource?.count ?? 0
+    }
     
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        
+        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: Constants.cellIdentifier, for: indexPath as IndexPath) as? QualityCollectionCell,
+            let findings = self.collectionDataSource  else {
+                return UICollectionViewCell()
+        }
+        
+        cell.configureCell(cellDependencyData: findings[indexPath.row], sectionName: nil)
+        return cell
+    }
+}
+
+extension QualityCell: UICollectionViewDelegateFlowLayout {
+    
+    func collectionView(_ collectionView: UICollectionView,
+                        layout collectionViewLayout: UICollectionViewLayout,
+                        sizeForItemAt indexPath: IndexPath) -> CGSize {
+        //collectionView.frame.size.width
+        guard let findings = self.collectionDataSource else {
+            return .zero
+        }
+        
+        let cellWidth = findings[indexPath.row].findingName?.width(withConstrainedHeight: 50, font: .systemFont(ofSize: 15, weight: .bold)) ?? 0
+        return CGSize(width: cellWidth + 30, height: 50)
+    }
 }
