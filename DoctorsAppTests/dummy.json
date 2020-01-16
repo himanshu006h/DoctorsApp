@@ -1,0 +1,1124 @@
+
+{
+    "statusCode": "SCS",
+    "statusMessage": "Success",
+    "reply": {
+        "sectionNote": "<br>",
+        "summaryText": null,
+        "hpi": [
+            {
+                "paragraphId": "-870",
+                "paragraphName": "HPI",
+                "templateName": "Back Pain",
+                "templateId": "465",
+                "sentences": [
+                    {
+                        "sentenceNote": null,
+                        "sentenceName": "Location:",
+                        "sentenceId": "-4300",
+                        "findings": [
+                            {
+                                "findingNote": null,
+                                "findingType": "NORMAL",
+                                "findingName": "pain is not radiating",
+                                "medcinId": null,
+                                "findingId": "-525852",
+                                "freeText": null,
+                                "genericFindingName": "pain is not radiating",
+                                "selectedOptions": [
+                                    
+                                ],
+                                "optionLists": [
+                                    
+                                ],
+                                "isSelected": true,
+                                "contradictionIds": [
+                                    "-152841",
+                                    "-152845",
+                                    "-152847",
+                                    "-152846"
+                                ],
+                                "findingShortName": null
+                            },
+                            {
+                                "findingNote": null,
+                                "findingType": "ABNORMAL",
+                                "findingName": "pain radiating to the buttocks",
+                                "medcinId": "115177",
+                                "findingId": "-152841",
+                                "freeText": null,
+                                "genericFindingName": "pain radiating to the buttocks",
+                                "selectedOptions": [
+                                    
+                                ],
+                                "optionLists": [
+                                    
+                                ],
+                                "isSelected": false,
+                                "contradictionIds": [
+                                    "-525852"
+                                ],
+                                "findingShortName": null
+                            },
+                            {
+                                "findingNote": null,
+                                "findingType": "ABNORMAL",
+                                "findingName": "pain radiating to the legs",
+                                "medcinId": "930",
+                                "findingId": "-152845",
+                                "freeText": null,
+                                "genericFindingName": "pain radiating to the legs",
+                                "selectedOptions": [
+                                    
+                                ],
+                                "optionLists": [
+                                    
+                                ],
+                                "isSelected": false,
+                                "contradictionIds": [
+                                    "-525852"
+                                ],
+                                "findingShortName": null
+                            },
+                            {
+                                "findingNote": null,
+                                "findingType": "ABNORMAL",
+                                "findingName": "pain radiating to the foot",
+                                "medcinId": "115240",
+                                "findingId": "-152847",
+                                "freeText": null,
+                                "genericFindingName": "pain radiating to the foot",
+                                "selectedOptions": [
+                                    
+                                ],
+                                "optionLists": [
+                                    
+                                ],
+                                "isSelected": false,
+                                "contradictionIds": [
+                                    "-525852"
+                                ],
+                                "findingShortName": null
+                            },
+                            {
+                                "findingNote": null,
+                                "findingType": "ABNORMAL",
+                                "findingName": "pain radiating to the ankle",
+                                "medcinId": "115239",
+                                "findingId": "-152846",
+                                "freeText": null,
+                                "genericFindingName": "pain radiating to the ankle",
+                                "selectedOptions": [
+                                    
+                                ],
+                                "optionLists": [
+                                    
+                                ],
+                                "isSelected": false,
+                                "contradictionIds": [
+                                    "-525852"
+                                ],
+                                "findingShortName": null
+                            }
+                        ]
+                    },
+                    {
+                        "sentenceNote": null,
+                        "sentenceName": "Quality:",
+                        "sentenceId": "-4299",
+                        "findings": [
+                            {
+                                "findingNote": null,
+                                "findingType": "ABNORMAL",
+                                "findingName": "sharp",
+                                "medcinId": null,
+                                "findingId": "-525454",
+                                "freeText": null,
+                                "genericFindingName": "sharp",
+                                "selectedOptions": [
+                                    
+                                ],
+                                "optionLists": [
+                                    
+                                ],
+                                "isSelected": false,
+                                "contradictionIds": [
+                                    
+                                ],
+                                "findingShortName": null
+                            },
+                            {
+                                "findingNote": null,
+                                "findingType": "ABNORMAL",
+                                "findingName": "tingling",
+                                "medcinId": null,
+                                "findingId": "-525460",
+                                "freeText": null,
+                                "genericFindingName": "tingling",
+                                "selectedOptions": [
+                                    
+                                ],
+                                "optionLists": [
+                                    
+                                ],
+                                "isSelected": false,
+                                "contradictionIds": [
+                                    "-531792"
+                                ],
+                                "findingShortName": null
+                            },
+                            {
+                                "findingNote": null,
+                                "findingType": "ABNORMAL",
+                                "findingName": "dull",
+                                "medcinId": null,
+                                "findingId": "-243576",
+                                "freeText": null,
+                                "genericFindingName": "dull",
+                                "selectedOptions": [
+                                    
+                                ],
+                                "optionLists": [
+                                    
+                                ],
+                                "isSelected": false,
+                                "contradictionIds": [
+                                    "-241231"
+                                ],
+                                "findingShortName": null
+                            }
+                        ]
+                    },
+                    {
+                        "sentenceNote": null,
+                        "sentenceName": "Severity:",
+                        "sentenceId": "-4298",
+                        "findings": [
+                            {
+                                "findingNote": null,
+                                "findingType": "NORMAL",
+                                "findingName": "improving",
+                                "medcinId": null,
+                                "findingId": "-525565",
+                                "freeText": null,
+                                "genericFindingName": "improving",
+                                "selectedOptions": [
+                                    
+                                ],
+                                "optionLists": [
+                                    
+                                ],
+                                "isSelected": true,
+                                "contradictionIds": [
+                                    "-525566",
+                                    "-525824",
+                                    "-525823"
+                                ],
+                                "findingShortName": null
+                            },
+                            {
+                                "findingNote": null,
+                                "findingType": "ABNORMAL",
+                                "findingName": "worsening",
+                                "medcinId": null,
+                                "findingId": "-525566",
+                                "freeText": null,
+                                "genericFindingName": "worsening",
+                                "selectedOptions": [
+                                    
+                                ],
+                                "optionLists": [
+                                    
+                                ],
+                                "isSelected": false,
+                                "contradictionIds": [
+                                    "-525565",
+                                    "-525824"
+                                ],
+                                "findingShortName": null
+                            },
+                            {
+                                "findingNote": null,
+                                "findingType": "ABNORMAL",
+                                "findingName": "pain level __/10",
+                                "medcinId": null,
+                                "findingId": "-241217",
+                                "freeText": null,
+                                "genericFindingName": "pain level __/10",
+                                "selectedOptions": [
+                                    
+                                ],
+                                "optionLists": [
+                                    
+                                ],
+                                "isSelected": false,
+                                "contradictionIds": [
+                                    
+                                ],
+                                "findingShortName": null
+                            },
+                            {
+                                "findingNote": null,
+                                "findingType": "ABNORMAL",
+                                "findingName": "mild (1-4)",
+                                "medcinId": null,
+                                "findingId": "-241213",
+                                "freeText": null,
+                                "genericFindingName": "mild (1-4)",
+                                "selectedOptions": [
+                                    
+                                ],
+                                "optionLists": [
+                                    
+                                ],
+                                "isSelected": false,
+                                "contradictionIds": [
+                                    "-241214",
+                                    "-241215",
+                                    "-532151",
+                                    "-531614"
+                                ],
+                                "findingShortName": null
+                            },
+                            {
+                                "findingNote": null,
+                                "findingType": "ABNORMAL",
+                                "findingName": "moderate (5-7)",
+                                "medcinId": null,
+                                "findingId": "-241214",
+                                "freeText": null,
+                                "genericFindingName": "moderate (5-7)",
+                                "selectedOptions": [
+                                    
+                                ],
+                                "optionLists": [
+                                    
+                                ],
+                                "isSelected": false,
+                                "contradictionIds": [
+                                    "-241213",
+                                    "-241215",
+                                    "-532151",
+                                    "-531614",
+                                    "-531673"
+                                ],
+                                "findingShortName": null
+                            },
+                            {
+                                "findingNote": null,
+                                "findingType": "ABNORMAL",
+                                "findingName": "severe (8-10)",
+                                "medcinId": null,
+                                "findingId": "-241215",
+                                "freeText": null,
+                                "genericFindingName": "severe (8-10)",
+                                "selectedOptions": [
+                                    
+                                ],
+                                "optionLists": [
+                                    
+                                ],
+                                "isSelected": false,
+                                "contradictionIds": [
+                                    "-241213",
+                                    "-241214",
+                                    "-532151",
+                                    "-531614",
+                                    "-531673"
+                                ],
+                                "findingShortName": null
+                            },
+                            {
+                                "findingNote": null,
+                                "findingType": "ABNORMAL",
+                                "findingName": "interference with sleep",
+                                "medcinId": null,
+                                "findingId": "-243530",
+                                "freeText": null,
+                                "genericFindingName": "interference with sleep",
+                                "selectedOptions": [
+                                    
+                                ],
+                                "optionLists": [
+                                    
+                                ],
+                                "isSelected": false,
+                                "contradictionIds": [
+                                    "-530457",
+                                    "-243538"
+                                ],
+                                "findingShortName": null
+                            },
+                            {
+                                "findingNote": null,
+                                "findingType": "ABNORMAL",
+                                "findingName": "interference with work",
+                                "medcinId": null,
+                                "findingId": "-243532",
+                                "freeText": null,
+                                "genericFindingName": "interference with work",
+                                "selectedOptions": [
+                                    
+                                ],
+                                "optionLists": [
+                                    
+                                ],
+                                "isSelected": false,
+                                "contradictionIds": [
+                                    "-530456",
+                                    "-261590",
+                                    "-531403",
+                                    "-243538"
+                                ],
+                                "findingShortName": null
+                            },
+                            {
+                                "findingNote": null,
+                                "findingType": "NEUTRAL",
+                                "findingName": "same",
+                                "medcinId": null,
+                                "findingId": "-525824",
+                                "freeText": null,
+                                "genericFindingName": "same",
+                                "selectedOptions": [
+                                    
+                                ],
+                                "optionLists": [
+                                    
+                                ],
+                                "isSelected": false,
+                                "contradictionIds": [
+                                    "-525565",
+                                    "-525566"
+                                ],
+                                "findingShortName": null
+                            }
+                        ]
+                    },
+                    {
+                        "sentenceNote": null,
+                        "sentenceName": "Duration:",
+                        "sentenceId": "-5358",
+                        "findings": [
+                            {
+                                "findingNote": null,
+                                "findingType": "NEUTRAL",
+                                "findingName": "cannot identify",
+                                "medcinId": null,
+                                "findingId": "-525307",
+                                "freeText": null,
+                                "genericFindingName": "cannot identify",
+                                "selectedOptions": [
+                                    
+                                ],
+                                "optionLists": [
+                                    
+                                ],
+                                "isSelected": false,
+                                "contradictionIds": [
+                                    
+                                ],
+                                "findingShortName": null
+                            },
+                            {
+                                "findingNote": null,
+                                "findingType": "NEUTRAL",
+                                "findingName": "acute",
+                                "medcinId": null,
+                                "findingId": "-560432",
+                                "freeText": null,
+                                "genericFindingName": "acute",
+                                "selectedOptions": [
+                                    
+                                ],
+                                "optionLists": [
+                                    
+                                ],
+                                "isSelected": false,
+                                "contradictionIds": [
+                                    
+                                ],
+                                "findingShortName": null
+                            },
+                            {
+                                "findingNote": null,
+                                "findingType": "NEUTRAL",
+                                "findingName": "intermittent",
+                                "medcinId": null,
+                                "findingId": "-243583",
+                                "freeText": null,
+                                "genericFindingName": "intermittent",
+                                "selectedOptions": [
+                                    
+                                ],
+                                "optionLists": [
+                                    
+                                ],
+                                "isSelected": false,
+                                "contradictionIds": [
+                                    
+                                ],
+                                "findingShortName": null
+                            },
+                            {
+                                "findingNote": null,
+                                "findingType": "NEUTRAL",
+                                "findingName": "chronic",
+                                "medcinId": null,
+                                "findingId": "-243546",
+                                "freeText": null,
+                                "genericFindingName": "chronic",
+                                "selectedOptions": [
+                                    
+                                ],
+                                "optionLists": [
+                                    
+                                ],
+                                "isSelected": false,
+                                "contradictionIds": [
+                                    "-243541"
+                                ],
+                                "findingShortName": null
+                            }
+                        ]
+                    },
+                    {
+                        "sentenceNote": null,
+                        "sentenceName": "Onset/Timing:",
+                        "sentenceId": "-4297",
+                        "findings": [
+                            {
+                                "findingNote": null,
+                                "findingType": "NEUTRAL",
+                                "findingName": "first episode",
+                                "medcinId": null,
+                                "findingId": "-531334",
+                                "freeText": null,
+                                "genericFindingName": "first episode",
+                                "selectedOptions": [
+                                    
+                                ],
+                                "optionLists": [
+                                    
+                                ],
+                                "isSelected": false,
+                                "contradictionIds": [
+                                    
+                                ],
+                                "findingShortName": null
+                            },
+                            {
+                                "findingNote": null,
+                                "findingType": "NEUTRAL",
+                                "findingName": "recurrent episode",
+                                "medcinId": null,
+                                "findingId": "-531335",
+                                "freeText": null,
+                                "genericFindingName": "recurrent episode",
+                                "selectedOptions": [
+                                    
+                                ],
+                                "optionLists": [
+                                    
+                                ],
+                                "isSelected": false,
+                                "contradictionIds": [
+                                    
+                                ],
+                                "findingShortName": null
+                            },
+                            {
+                                "findingNote": null,
+                                "findingType": "NEUTRAL",
+                                "findingName": "___ hours ago",
+                                "medcinId": null,
+                                "findingId": "-531327",
+                                "freeText": null,
+                                "genericFindingName": "___ hours ago",
+                                "selectedOptions": [
+                                    
+                                ],
+                                "optionLists": [
+                                    
+                                ],
+                                "isSelected": false,
+                                "contradictionIds": [
+                                    
+                                ],
+                                "findingShortName": null
+                            },
+                            {
+                                "findingNote": null,
+                                "findingType": "NEUTRAL",
+                                "findingName": "___days ago",
+                                "medcinId": null,
+                                "findingId": "-525395",
+                                "freeText": null,
+                                "genericFindingName": "___days ago",
+                                "selectedOptions": [
+                                    
+                                ],
+                                "optionLists": [
+                                    
+                                ],
+                                "isSelected": false,
+                                "contradictionIds": [
+                                    "-525396"
+                                ],
+                                "findingShortName": null
+                            },
+                            {
+                                "findingNote": null,
+                                "findingType": "NEUTRAL",
+                                "findingName": "___weeks ago",
+                                "medcinId": null,
+                                "findingId": "-525396",
+                                "freeText": null,
+                                "genericFindingName": "___weeks ago",
+                                "selectedOptions": [
+                                    
+                                ],
+                                "optionLists": [
+                                    
+                                ],
+                                "isSelected": false,
+                                "contradictionIds": [
+                                    "-525395"
+                                ],
+                                "findingShortName": null
+                            }
+                        ]
+                    },
+                    {
+                        "sentenceNote": null,
+                        "sentenceName": "Context:",
+                        "sentenceId": "-4357",
+                        "findings": [
+                            {
+                                "findingNote": null,
+                                "findingType": "NEUTRAL",
+                                "findingName": "trauma",
+                                "medcinId": null,
+                                "findingId": "-243619",
+                                "freeText": null,
+                                "genericFindingName": "trauma",
+                                "selectedOptions": [
+                                    
+                                ],
+                                "optionLists": [
+                                    
+                                ],
+                                "isSelected": false,
+                                "contradictionIds": [
+                                    
+                                ],
+                                "findingShortName": null
+                            },
+                            {
+                                "findingNote": null,
+                                "findingType": "NEUTRAL",
+                                "findingName": "overuse",
+                                "medcinId": null,
+                                "findingId": "-525853",
+                                "freeText": null,
+                                "genericFindingName": "overuse",
+                                "selectedOptions": [
+                                    
+                                ],
+                                "optionLists": [
+                                    
+                                ],
+                                "isSelected": false,
+                                "contradictionIds": [
+                                    
+                                ],
+                                "findingShortName": null
+                            },
+                            {
+                                "findingNote": null,
+                                "findingType": "NEUTRAL",
+                                "findingName": "unusual activity",
+                                "medcinId": null,
+                                "findingId": "-525854",
+                                "freeText": null,
+                                "genericFindingName": "unusual activity",
+                                "selectedOptions": [
+                                    
+                                ],
+                                "optionLists": [
+                                    
+                                ],
+                                "isSelected": false,
+                                "contradictionIds": [
+                                    
+                                ],
+                                "findingShortName": null
+                            },
+                            {
+                                "findingNote": null,
+                                "findingType": "NEUTRAL",
+                                "findingName": "prior back problems",
+                                "medcinId": null,
+                                "findingId": "-525855",
+                                "freeText": null,
+                                "genericFindingName": "prior back problems",
+                                "selectedOptions": [
+                                    
+                                ],
+                                "optionLists": [
+                                    
+                                ],
+                                "isSelected": false,
+                                "contradictionIds": [
+                                    
+                                ],
+                                "findingShortName": null
+                            },
+                            {
+                                "findingNote": null,
+                                "findingType": "NEUTRAL",
+                                "findingName": "used medications for back pain",
+                                "medcinId": null,
+                                "findingId": "-525612",
+                                "freeText": null,
+                                "genericFindingName": "used medications for back pain",
+                                "selectedOptions": [
+                                    
+                                ],
+                                "optionLists": [
+                                    
+                                ],
+                                "isSelected": false,
+                                "contradictionIds": [
+                                    "-525946"
+                                ],
+                                "findingShortName": null
+                            },
+                            {
+                                "findingNote": null,
+                                "findingType": "NEUTRAL",
+                                "findingName": "had evaluations by back specialist",
+                                "medcinId": null,
+                                "findingId": "-525856",
+                                "freeText": null,
+                                "genericFindingName": "had evaluations by back specialist",
+                                "selectedOptions": [
+                                    
+                                ],
+                                "optionLists": [
+                                    
+                                ],
+                                "isSelected": false,
+                                "contradictionIds": [
+                                    
+                                ],
+                                "findingShortName": null
+                            }
+                        ]
+                    },
+                    {
+                        "sentenceNote": null,
+                        "sentenceName": "Alleviating Factors:",
+                        "sentenceId": "-5702",
+                        "findings": [
+                            {
+                                "findingNote": null,
+                                "findingType": "NEUTRAL",
+                                "findingName": "rest",
+                                "medcinId": null,
+                                "findingId": "-525425",
+                                "freeText": null,
+                                "genericFindingName": "rest",
+                                "selectedOptions": [
+                                    
+                                ],
+                                "optionLists": [
+                                    
+                                ],
+                                "isSelected": false,
+                                "contradictionIds": [
+                                    
+                                ],
+                                "findingShortName": null
+                            },
+                            {
+                                "findingNote": null,
+                                "findingType": "NEUTRAL",
+                                "findingName": "relieved by changing position",
+                                "medcinId": null,
+                                "findingId": "-243643",
+                                "freeText": null,
+                                "genericFindingName": "relieved by changing position",
+                                "selectedOptions": [
+                                    
+                                ],
+                                "optionLists": [
+                                    
+                                ],
+                                "isSelected": false,
+                                "contradictionIds": [
+                                    
+                                ],
+                                "findingShortName": null
+                            }
+                        ]
+                    },
+                    {
+                        "sentenceNote": null,
+                        "sentenceName": "Aggravating Factors:",
+                        "sentenceId": "-5701",
+                        "findings": [
+                            {
+                                "findingNote": null,
+                                "findingType": "ABNORMAL",
+                                "findingName": "movement/positioning",
+                                "medcinId": null,
+                                "findingId": "-243641",
+                                "freeText": null,
+                                "genericFindingName": "movement/positioning",
+                                "selectedOptions": [
+                                    
+                                ],
+                                "optionLists": [
+                                    
+                                ],
+                                "isSelected": false,
+                                "contradictionIds": [
+                                    
+                                ],
+                                "findingShortName": null
+                            },
+                            {
+                                "findingNote": null,
+                                "findingType": "ABNORMAL",
+                                "findingName": "twisting",
+                                "medcinId": null,
+                                "findingId": "-525858",
+                                "freeText": null,
+                                "genericFindingName": "twisting",
+                                "selectedOptions": [
+                                    
+                                ],
+                                "optionLists": [
+                                    
+                                ],
+                                "isSelected": false,
+                                "contradictionIds": [
+                                    
+                                ],
+                                "findingShortName": null
+                            },
+                            {
+                                "findingNote": null,
+                                "findingType": "ABNORMAL",
+                                "findingName": "flexing back",
+                                "medcinId": null,
+                                "findingId": "-525857",
+                                "freeText": null,
+                                "genericFindingName": "flexing back",
+                                "selectedOptions": [
+                                    
+                                ],
+                                "optionLists": [
+                                    
+                                ],
+                                "isSelected": false,
+                                "contradictionIds": [
+                                    
+                                ],
+                                "findingShortName": null
+                            },
+                            {
+                                "findingNote": null,
+                                "findingType": "ABNORMAL",
+                                "findingName": "extending back",
+                                "medcinId": "113281",
+                                "findingId": "-185574",
+                                "freeText": null,
+                                "genericFindingName": "extending back",
+                                "selectedOptions": [
+                                    
+                                ],
+                                "optionLists": [
+                                    
+                                ],
+                                "isSelected": false,
+                                "contradictionIds": [
+                                    
+                                ],
+                                "findingShortName": null
+                            }
+                        ]
+                    },
+                    {
+                        "sentenceNote": null,
+                        "sentenceName": "Associated Symptoms:",
+                        "sentenceId": "-4302",
+                        "findings": [
+                            {
+                                "findingNote": null,
+                                "findingType": "NORMAL",
+                                "findingName": "no fever",
+                                "medcinId": "6",
+                                "findingId": "-243870",
+                                "freeText": null,
+                                "genericFindingName": "no fever",
+                                "selectedOptions": [
+                                    
+                                ],
+                                "optionLists": [
+                                    
+                                ],
+                                "isSelected": true,
+                                "contradictionIds": [
+                                    "-76585"
+                                ],
+                                "findingShortName": null
+                            },
+                            {
+                                "findingNote": null,
+                                "findingType": "NORMAL",
+                                "findingName": "no weak limbs",
+                                "medcinId": "698",
+                                "findingId": "-245034",
+                                "freeText": null,
+                                "genericFindingName": "no weak limbs",
+                                "selectedOptions": [
+                                    
+                                ],
+                                "optionLists": [
+                                    
+                                ],
+                                "isSelected": true,
+                                "contradictionIds": [
+                                    "-77578"
+                                ],
+                                "findingShortName": null
+                            },
+                            {
+                                "findingNote": null,
+                                "findingType": "NORMAL",
+                                "findingName": "no numbness of the legs/feet",
+                                "medcinId": "883",
+                                "findingId": "-358418",
+                                "freeText": null,
+                                "genericFindingName": "no numbness of the legs/feet",
+                                "selectedOptions": [
+                                    
+                                ],
+                                "optionLists": [
+                                    
+                                ],
+                                "isSelected": true,
+                                "contradictionIds": [
+                                    "-153375"
+                                ],
+                                "findingShortName": null
+                            },
+                            {
+                                "findingNote": null,
+                                "findingType": "NORMAL",
+                                "findingName": "no tingling",
+                                "medcinId": "1646",
+                                "findingId": "-245052",
+                                "freeText": null,
+                                "genericFindingName": "no tingling",
+                                "selectedOptions": [
+                                    
+                                ],
+                                "optionLists": [
+                                    
+                                ],
+                                "isSelected": true,
+                                "contradictionIds": [
+                                    "-77596"
+                                ],
+                                "findingShortName": null
+                            },
+                            {
+                                "findingNote": null,
+                                "findingType": "NORMAL",
+                                "findingName": "no incontinence",
+                                "medcinId": "908",
+                                "findingId": "-244533",
+                                "freeText": null,
+                                "genericFindingName": "no incontinence",
+                                "selectedOptions": [
+                                    
+                                ],
+                                "optionLists": [
+                                    
+                                ],
+                                "isSelected": true,
+                                "contradictionIds": [
+                                    "-77121"
+                                ],
+                                "findingShortName": null
+                            },
+                            {
+                                "findingNote": null,
+                                "findingType": "NORMAL",
+                                "findingName": "no shortness of breath",
+                                "medcinId": "115876",
+                                "findingId": "-244299",
+                                "freeText": null,
+                                "genericFindingName": "no shortness of breath",
+                                "selectedOptions": [
+                                    
+                                ],
+                                "optionLists": [
+                                    
+                                ],
+                                "isSelected": true,
+                                "contradictionIds": [
+                                    "-76910",
+                                    "-76916",
+                                    "-88411"
+                                ],
+                                "findingShortName": null
+                            },
+                            {
+                                "findingNote": null,
+                                "findingType": "ABNORMAL",
+                                "findingName": "fever",
+                                "medcinId": "6",
+                                "findingId": "-76585",
+                                "freeText": null,
+                                "genericFindingName": "fever",
+                                "selectedOptions": [
+                                    
+                                ],
+                                "optionLists": [
+                                    
+                                ],
+                                "isSelected": false,
+                                "contradictionIds": [
+                                    "-243870"
+                                ],
+                                "findingShortName": null
+                            },
+                            {
+                                "findingNote": null,
+                                "findingType": "ABNORMAL",
+                                "findingName": "weak limbs",
+                                "medcinId": "698",
+                                "findingId": "-77578",
+                                "freeText": null,
+                                "genericFindingName": "weak limbs",
+                                "selectedOptions": [
+                                    
+                                ],
+                                "optionLists": [
+                                    
+                                ],
+                                "isSelected": false,
+                                "contradictionIds": [
+                                    "-245034",
+                                    "-245054"
+                                ],
+                                "findingShortName": null
+                            },
+                            {
+                                "findingNote": null,
+                                "findingType": "ABNORMAL",
+                                "findingName": "numbness of the legs/feet",
+                                "medcinId": "883",
+                                "findingId": "-153375",
+                                "freeText": null,
+                                "genericFindingName": "numbness of the legs/feet",
+                                "selectedOptions": [
+                                    
+                                ],
+                                "optionLists": [
+                                    
+                                ],
+                                "isSelected": false,
+                                "contradictionIds": [
+                                    "-358418"
+                                ],
+                                "findingShortName": null
+                            },
+                            {
+                                "findingNote": null,
+                                "findingType": "ABNORMAL",
+                                "findingName": "tingling",
+                                "medcinId": "1646",
+                                "findingId": "-77596",
+                                "freeText": null,
+                                "genericFindingName": "tingling",
+                                "selectedOptions": [
+                                    
+                                ],
+                                "optionLists": [
+                                    
+                                ],
+                                "isSelected": false,
+                                "contradictionIds": [
+                                    "-245052"
+                                ],
+                                "findingShortName": null
+                            },
+                            {
+                                "findingNote": null,
+                                "findingType": "ABNORMAL",
+                                "findingName": "incontinence",
+                                "medcinId": "908",
+                                "findingId": "-77121",
+                                "freeText": null,
+                                "genericFindingName": "incontinence",
+                                "selectedOptions": [
+                                    
+                                ],
+                                "optionLists": [
+                                    
+                                ],
+                                "isSelected": false,
+                                "contradictionIds": [
+                                    "-244533",
+                                    "-532869"
+                                ],
+                                "findingShortName": null
+                            },
+                            {
+                                "findingNote": null,
+                                "findingType": "ABNORMAL",
+                                "findingName": "shortness of breath",
+                                "medcinId": "115876",
+                                "findingId": "-76910",
+                                "freeText": null,
+                                "genericFindingName": "shortness of breath",
+                                "selectedOptions": [
+                                    
+                                ],
+                                "optionLists": [
+                                    
+                                ],
+                                "isSelected": false,
+                                "contradictionIds": [
+                                    "-244299",
+                                    "-558899"
+                                ],
+                                "findingShortName": null
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "templates": [
+            "Back Pain"
+        ],
+        "templateData": [
+            {
+                "templateName": "Back Pain",
+                "templateNote": null,
+                "templateId": "465",
+                "reportedBy": "Patient"
+            }
+        ],
+        "sectionToken": null,
+        "isHpiToRos": true,
+        "sectionNoteLastModifiedDateTime": "2018-04-24T05:59:34.000Z",
+        "lastModifiedDateTime": "2018-04-24T05:59:34.000Z"
+    }
+}

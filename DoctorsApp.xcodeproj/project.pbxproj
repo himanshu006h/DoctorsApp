@@ -39,6 +39,9 @@
 		C48A9979239A737700516AC1 /* LocationCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C48A9977239A737700516AC1 /* LocationCollectionCell.xib */; };
 		C4A6EB48239CCDBF00489A9D /* SeverityCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A6EB46239CCDBF00489A9D /* SeverityCollectionCell.swift */; };
 		C4A6EB49239CCDBF00489A9D /* SeverityCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4A6EB47239CCDBF00489A9D /* SeverityCollectionCell.xib */; };
+		C4A6EB4E239CE3A300489A9D /* dummy.json in Resources */ = {isa = PBXBuildFile; fileRef = C4A6EB4D239CE3A300489A9D /* dummy.json */; };
+		C4A6EB50239CE3D800489A9D /* DoctorsAppServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A6EB4F239CE3D800489A9D /* DoctorsAppServiceTest.swift */; };
+		C4A6EB52239CE49C00489A9D /* DoctorsAppParsingTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A6EB51239CE49C00489A9D /* DoctorsAppParsingTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +91,9 @@
 		C48A9977239A737700516AC1 /* LocationCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LocationCollectionCell.xib; sourceTree = "<group>"; };
 		C4A6EB46239CCDBF00489A9D /* SeverityCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeverityCollectionCell.swift; sourceTree = "<group>"; };
 		C4A6EB47239CCDBF00489A9D /* SeverityCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SeverityCollectionCell.xib; sourceTree = "<group>"; };
+		C4A6EB4D239CE3A300489A9D /* dummy.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = dummy.json; sourceTree = "<group>"; };
+		C4A6EB4F239CE3D800489A9D /* DoctorsAppServiceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorsAppServiceTest.swift; sourceTree = "<group>"; };
+		C4A6EB51239CE49C00489A9D /* DoctorsAppParsingTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorsAppParsingTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +152,9 @@
 			children = (
 				C48A9935239A17D700516AC1 /* DoctorsAppTests.swift */,
 				C48A9937239A17D700516AC1 /* Info.plist */,
+				C4A6EB4D239CE3A300489A9D /* dummy.json */,
+				C4A6EB4F239CE3D800489A9D /* DoctorsAppServiceTest.swift */,
+				C4A6EB51239CE49C00489A9D /* DoctorsAppParsingTest.swift */,
 			);
 			path = DoctorsAppTests;
 			sourceTree = "<group>";
@@ -319,6 +328,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4A6EB4E239CE3A300489A9D /* dummy.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +368,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4A6EB52239CE49C00489A9D /* DoctorsAppParsingTest.swift in Sources */,
+				C4A6EB50239CE3D800489A9D /* DoctorsAppServiceTest.swift in Sources */,
 				C48A9936239A17D700516AC1 /* DoctorsAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
